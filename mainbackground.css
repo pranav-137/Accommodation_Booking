@@ -1,0 +1,263 @@
+body {
+    background-image: url("Dhundho_Images/Backgroundmaind.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
+    /* color: antiquewhite; */
+    display: flex;
+    background-color: rgb(2, 19, 5);
+    height: 80px;
+    border-radius: 5px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+.headerleft {
+    position: absolute;
+    margin-left: 18px;
+
+}
+
+.headerleft img {
+    width: 150px;
+    height: 75px;
+    border-radius: 50px;
+}
+
+.headerright {
+    position: absolute;
+    right: 40px;
+    margin-top: 30px;
+}
+
+.navbar {
+    display: inline;
+
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li :hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.navbar li a {
+    color: rgb(200, 200, 26);
+    text-decoration: none;
+    padding: 15px;
+}
+
+.time {
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 3px;
+    color: rgb(200, 200, 26);
+    text-shadow: -0.5px -0.5px black;
+    margin-top: 83px;
+}
+
+.welcomebox1 {
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    text-shadow: -2px -2px black;
+    margin-bottom: 2px;
+    text-decoration: underline;
+}
+
+.welcomebox2 {
+    /* position: absolute; */
+    right: 360px;
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    text-shadow: -0.5px -0.5px rgb(2, 19, 5);
+    text-decoration: underline;
+}
+
+.welcomebox3 {
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    text-shadow: -1px -1px black;
+    text-decoration: underline;
+}
+
+.container {
+    color: black;
+    margin-left: 40%;
+    margin-right: 35%;
+    margin-bottom: 50px;
+}
+.container:hover{
+    transform: scale(1.03);
+}
+
+.container p {
+    font-size: 30px;
+    text-shadow: -2px -2px black;
+    margin-top: 0px;
+    margin-bottom: 11px;
+}
+
+.box {
+    color: white;
+    padding-top: 8px;
+}
+
+.box i {
+    width: 25px;
+    float: left;
+    text-align: center;
+}
+
+.box input {
+    border: none;
+    font-size: 15px;
+    background-color: lightgray;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1.1);
+    opacity: 0.3;
+}
+
+.why {
+    text-align: center;
+    font-size: 35px;
+    color: yellow;
+    text-shadow: -1px -1px black;
+}
+
+.whydhundho {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.whydhundho div {
+    height: 290px;
+    width: 265px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    font: weight 5px;
+    text-shadow: -1px -1px black;
+    color: yellow;
+}
+
+.whydhundho div span {
+    color: black;
+    text-shadow: none;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.whydhundho div:hover {
+    transform: scale(1.05);
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    opacity: 0.6;
+}
+.specification{
+    border: 2px solid Black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size:x-large;
+    font-weight: bolder;
+    color: yellow;
+    text-shadow: -0.5px -0.5px white;
+    background-color: rgb(2, 19, 5) ;
+}
+.living{
+    text-align: center;
+    font-size: 35px;
+    color: yellow;
+    text-shadow: -1px -1px black;   
+}
+.livingwithdhundho {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.livingwithdhundho div {
+    height: 350px;
+    width: 220px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    font: weight 5px;
+    text-shadow: -1px -1px black;
+    color: rgb(232, 232, 37);
+}
+.livingwithdhundho div img{
+    height: 200px;
+    width: 220px;
+}
+.livingwithdhundho div img:hover{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.livingwithdhundho div span {
+    color: black;
+    text-shadow: none;
+    font-size: 15px;
+    font-weight: 900;
+
+}
+
+.livingwithdhundho div:hover {
+    transform: scale(1.03);
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: 0.5px 0.5px 3px 3px rgb(2, 19, 5);
+    opacity: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom {
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: rgb(2, 19, 5);
+    padding-top: 20px;
+    padding-bottom: 280px;
+    color: yellow;
+    text-shadow: -0.3px -0.3px white;
+    text-align: center;
+    font-size: larger;
+}
